@@ -1,58 +1,20 @@
-AI-Assisted Knowledge Search Web Application
-Overview
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This project is a web-based application that allows users to search for information from stored documents. The backend retrieves relevant data and uses an AI service to generate clear, context-aware responses. The goal is to simulate a simple knowledge search system used in internal tools and support platforms.
+# Run and deploy your AI Studio app
 
-Key Features
+This contains everything you need to run your app locally.
 
-Search interface for querying stored documents
+View your app in AI Studio: https://ai.studio/apps/drive/19yjGPJagR8Ki3hjKobQVGDB33-CAjBnW
 
-Backend APIs for handling search requests
+## Run Locally
 
-AI-assisted response generation based on retrieved content
+**Prerequisites:**  Node.js
 
-Database storage for documents and metadata
 
-Cloud deployment for easy access and scalability
-
-Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Node.js, REST APIs
-
-Database: PostgreSQL / MongoDB
-
-AI Integration: LLM API
-
-Cloud & Tools: AWS, Docker, Git
-
-Application Flow
-
-User submits a search query
-
-Backend retrieves relevant documents from the database
-
-AI service generates a summarized or context-aware response
-
-Response is sent back to the frontend
-
-Search results are displayed to the user
-
-What I Learned
-
-Designing backend APIs for search-based applications
-
-Working with databases for document storage
-
-Integrating AI services for response generation
-
-Deploying full stack applications to the cloud
-
-Future Improvements
-
-Improve search accuracy and ranking
-
-Add document upload functionality
-
-Optimize response time and caching
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

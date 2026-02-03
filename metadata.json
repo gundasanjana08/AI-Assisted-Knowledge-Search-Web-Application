@@ -1,0 +1,5 @@
+{
+  "name": "KnowledgeQuest AI",
+  "description": "A sophisticated full-stack-style knowledge search application. Upload or add snippets to your local knowledge base and use Gemini AI to get summarized, context-aware answers from your personal data.",
+  "requestFramePermissions": []
+}
